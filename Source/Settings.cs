@@ -5,8 +5,8 @@ namespace DesirePaths
 {
 	public class Settings : ModSettings
 	{
-        public int pathDegradeThreshold;
-        public int pathCreateThreshold;
+        public int pathDegradeThreshold = 120;
+        public int pathCreateThreshold = 80;
         public float pathDegradeFactor = .9f;
 
         public void DoWindowContents( Rect canvas )

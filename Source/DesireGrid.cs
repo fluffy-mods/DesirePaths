@@ -46,13 +46,13 @@ namespace DesirePaths
                 if ( !pawn.pather.MovingNow )
                     weight *= 1 / 10f;
                 walkGrid[map.cellIndices.CellToIndex( pawn.PositionHeld )] += weight;
+#if DEBUG
+                map.debugDrawer.FlashCell( pawn.Position, weight );
+#endif
 
                 // also remove snow where we're walking
-                map.snowGrid.AddDepth( pawn.Position, -.1f );
+                map.snowGrid.AddDepth( pawn.Position, -.02f );
 
-#if DEBUG
-                map.debugDrawer.FlashCell( pawn.Position, walkGrid[map.cellIndices.CellToIndex(pawn.Position)] / 500 );
-#endif
             }
         }
 
