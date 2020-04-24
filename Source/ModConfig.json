@@ -2,15 +2,23 @@
     "name": "Desire Paths",
     "version": {
         "major": 0,
-        "minor": 2,
-        "build": 57
+        "minor": 3,
+        "build": 58
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "",
-    "changenotes": [],
+    "changenote": "2020-04-24 :: Fluffy :: more frequent smaller updates to dirt paths",
+    "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "4b86f60d8c6498586d681b27cc172452331178b2",
+            "date": "2020-04-24",
+            "author": "Fluffy",
+            "message": "more frequent smaller updates to dirt paths"
+        }
+    ],
     "contributors": {},
     "tags": [
         "1.1"
