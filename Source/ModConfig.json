@@ -6,6 +6,8 @@
         "build": 53
     },
     "visibility": 0,
+    "git_repo": "DesirePaths",
+    "git_user": "FluffierThanThou",
     "packageId": "fluffy.desirepaths",
     "changenote": "",
     "changenotes": [],
