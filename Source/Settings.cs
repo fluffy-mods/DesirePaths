@@ -8,9 +8,6 @@ namespace DesirePaths
         public int pathDegradeThreshold;
         public int pathCreateThreshold;
         public float pathDegradeFactor = .9f;
-        public string pathDegradeThresholdBuffer;
-        public string pathCreateThresholdBuffer;
-        public string pathDegradeFactorBuffer;
 
         public void DoWindowContents( Rect canvas )
         {
