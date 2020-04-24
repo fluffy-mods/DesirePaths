@@ -2,15 +2,22 @@
     "name": "Desire Paths",
     "version": {
         "major": 0,
-        "minor": 1,
-        "build": 55
+        "minor": 2,
+        "build": 56
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "",
+    "changenote": "2020-04-24 :: Fluffy :: remove debug cell flashing, pawns standing still don't trample earth (almost), remove snow where pawns walk",
     "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "80cab7f03106438d38e9b55f5526fc65084d7a60",
+            "date": "2020-04-24",
+            "author": "Fluffy",
+            "message": "remove debug cell flashing, pawns standing still don't trample earth (almost), remove snow where pawns walk"
+        },
         {
             "repo": "DesirePaths",
             "hash": "92140d3648a4253d24834bbffe37379eef10d40c",
