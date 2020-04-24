@@ -32,19 +32,27 @@ namespace DesirePaths
         {
             base.MapComponentTick();
             if ( GenTicks.TicksGame % 10                          == 0 ) DoPheromoneTick();
-            if ( GenTicks.TicksGame % ( GenDate.TicksPerDay / 4 ) == 0 ) DoUpdateTick();
+            if ( GenTicks.TicksGame % ( GenDate.TicksPerDay / 12 ) == 0 ) DoUpdateTick();
         }
 
         public void DoPheromoneTick()
         {
-            foreach ( var pawn in map.mapPawns.AllPawnsSpawned.Where( p => !p.Dead && p.Awake() ) )
+            foreach ( var pawn in map.mapPawns.AllPawnsSpawned.Where( p => !p.Dead && !p.Downed && p.Awake() ) )
             {
                 var weight = 1f;
                 if ( pawn.RaceProps?.Animal ?? false )
                     weight *= 1 / 4f;
                 weight *= pawn.BodySize;
-                map.debugDrawer.FlashCell( pawn.PositionHeld, weight );
+                if ( !pawn.pather.MovingNow )
+                    weight *= 1 / 10f;
                 walkGrid[map.cellIndices.CellToIndex( pawn.PositionHeld )] += weight;
+
+                // also remove snow where we're walking
+                map.snowGrid.AddDepth( pawn.Position, -.1f );
+
+#if DEBUG
+                map.debugDrawer.FlashCell( pawn.Position, walkGrid[map.cellIndices.CellToIndex(pawn.Position)] / 500 );
+#endif
             }
         }
 

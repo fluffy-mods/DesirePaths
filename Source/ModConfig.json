@@ -3,14 +3,22 @@
     "version": {
         "major": 0,
         "minor": 1,
-        "build": 53
+        "build": 55
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
     "changenote": "",
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "92140d3648a4253d24834bbffe37379eef10d40c",
+            "date": "2020-04-24",
+            "author": "Fluffy",
+            "message": "Release 0.1.53 [nolog]"
+        }
+    ],
     "contributors": {},
     "tags": [
         "1.1"
