@@ -1,10 +1,16 @@
 {
-  "name": "Desire Paths",
-  "version": {
-    "major": 0,
-    "minor": 0,
-    "build": 0
-  },
-  "visibility": 0,
-  "packageId": "fluffy.desire paths"
+    "name": "Desire Paths",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "build": 48
+    },
+    "visibility": 0,
+    "packageId": "fluffy.desirepaths",
+    "changenote": "",
+    "changenotes": [],
+    "contributors": {},
+    "tags": [
+        "1.1"
+    ]
 }
