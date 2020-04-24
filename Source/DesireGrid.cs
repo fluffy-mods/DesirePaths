@@ -62,7 +62,7 @@ namespace DesirePaths
             {
                 if ( walkGrid[i] > DesirePaths.Settings.pathCreateThreshold )
                     TryCreatePath( i );
-                walkGrid[i] *= DesirePaths.Settings.pathDegradeFactor;
+                walkGrid[i] *= Mathf.Sqrt( DesirePaths.Settings.pathDegradeFactor );
                 if ( walkGrid[i] < DesirePaths.Settings.pathDegradeThreshold )
                     TryRemovePath( i );
             }
