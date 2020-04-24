@@ -10,21 +10,21 @@
 &lt;size=24&gt;Features&lt;/size&gt;
 Packed dirt has a higher move speed than most other ‘natural’ terrains, but it does track a lot of dirt around and has no fertility. If your colonists frequently walk through your farms, they will eventually trample the fields.
 
-Natural paths will form when colonists frequently take the same path, and will eventually degrade back into the original terrain if not walked on.
-
-In the real world, such paths are called desire paths. They exist everywhere, and you probably never paid them much attention.
+Packed dirt paths will form when colonists frequently take the same path over grass, soil, dirt and other natural terrain. The packed dirt paths will eventually degrade back into the original terrain if not walked on. In the real world, such paths are called desire paths, Elephant paths, pirate paths, or just simply shortcuts.
 
 
 
 &lt;size=24&gt;Recommended&lt;/size&gt;
-I recommend using this together with
+If you find that your colonists keep walking through your fields, I recommend using this together with
 Path Avoid, so that you can better steer where your colonists may and may not walk.
+
+That said, if such desire paths form where you don’t want them, it’s really a sign that you need to change your base design!
 
 &lt;size=24&gt;Known Issues&lt;/size&gt;
 None
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 0.0.48, for RimWorld 1.1.2610.
+This is version 0.1.53, for RimWorld 1.1.2610.
 
 </description>
   <url>https://steamcommunity.com/id/Fluffy/myworkshopfiles/?appid=294100</url>
