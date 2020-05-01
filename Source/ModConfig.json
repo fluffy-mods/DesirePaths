@@ -2,15 +2,22 @@
     "name": "Desire Paths",
     "version": {
         "major": 0,
-        "minor": 4,
-        "build": 86
+        "minor": 5,
+        "build": 90
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "2020-05-01 22:05 :: Fluffy :: tweak snow clearance rate, add stone smoothing",
+    "changenote": "2020-05-02 01:05 :: Fluffy :: add path density overlay\n2020-05-01 22:05 :: Fluffy :: tweak snow clearance rate, add stone smoothing",
     "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "0aaf43549a549e89f21a3f490e4d58448ddfcc06",
+            "date": "2020-05-02 01:05",
+            "author": "Fluffy",
+            "message": "add path density overlay"
+        },
         {
             "repo": "DesirePaths",
             "hash": "9e50cf6b0bec2acdd27db1a1cb51dc1b3c517887",

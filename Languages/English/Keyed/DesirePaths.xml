@@ -7,7 +7,7 @@
     <Fluffy.DesirePaths>Desire Paths</Fluffy.DesirePaths>
     <Fluffy.DesirePaths.Settings.PathCreationThreshold>Path creation threshold (current: {0}, default: {1}, lower creates packed earth paths faster)</Fluffy.DesirePaths.Settings.PathCreationThreshold>
     <Fluffy.DesirePaths.Settings.PathDegradeThreshold>Path degrade threshold (current: {0}, default: {1}, higher removes packed earth paths faster)</Fluffy.DesirePaths.Settings.PathDegradeThreshold>
-    <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>Path degrade factor (current: {0}, default: {1}, higher degrades packed earth paths faster)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
-    <Fluffy.DesirePaths.Settings.PathDegradeFactor>Snow path clearing speed (current: {0}, default: {1}, higher removes snow quicker)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
-    <Fluffy.DesirePaths.Settings.SnowClearFactor>How long does it take for rough stone to become smoothed with use? (current: {0}, default: {1}, higher takes longer)</Fluffy.DesirePaths.Settings.SnowClearFactor>
+    <Fluffy.DesirePaths.Settings.PathDegradeFactor>Path degrade factor (current: {0}, default: {1}, higher degrades packed earth paths faster)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
+    <Fluffy.DesirePaths.Settings.SnowClearFactor>Snow path clearing speed (current: {0}, default: {1}, higher removes snow quicker)</Fluffy.DesirePaths.Settings.SnowClearFactor>
+    <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>How long does it take for rough stone to become smoothed with use? (current: {0}, default: {1}, higher takes longer)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
 </LanguageData>
