@@ -3,14 +3,22 @@
     "version": {
         "major": 0,
         "minor": 4,
-        "build": 62
+        "build": 86
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "",
-    "changenotes": [],
+    "changenote": "2020-05-01 22:05 :: Fluffy :: tweak snow clearance rate, add stone smoothing",
+    "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "9e50cf6b0bec2acdd27db1a1cb51dc1b3c517887",
+            "date": "2020-05-01 22:05",
+            "author": "Fluffy",
+            "message": "tweak snow clearance rate, add stone smoothing"
+        }
+    ],
     "contributors": {},
     "tags": [
         "1.1"

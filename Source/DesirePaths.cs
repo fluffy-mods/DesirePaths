@@ -1,4 +1,6 @@
-﻿using Verse;
+﻿using System.Collections.Generic;
+using HarmonyLib;
+using Verse;
 using UnityEngine;
 
 namespace DesirePaths
@@ -9,6 +11,13 @@ namespace DesirePaths
         {
             // initialize settings
             Settings = GetSettings<Settings>();
+
+#if DEBUG
+            Harmony.DEBUG = true;
+#endif
+
+            var harmony = new Harmony( "Fluffy.DesirePaths" );
+            harmony.PatchAll();
         }
 
         public static Settings Settings { get; private set; }
@@ -19,9 +28,6 @@ namespace DesirePaths
             GetSettings<Settings>().DoWindowContents( inRect );
         }
 
-        public override string SettingsCategory()
-        {
-            return "Desire Paths";
-        }
+        public override string SettingsCategory() => I18n.DesirePaths;
     }
 }

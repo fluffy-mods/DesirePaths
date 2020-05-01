@@ -9,24 +9,29 @@ using Verse;
 
 namespace DesirePaths
 {
-    public class DesireGrid : MapComponent
+    public class DesireGrid : MapComponent, ICellBoolGiver
     {
         private float[] walkGrid;
         private float[] stoneGrid;
         private TerrainDef[] originalTerrain;
+        private CellBoolDrawer pathsDrawer;
+
+        public static bool drawPaths = true;
 
         public DesireGrid(Map map) : base(map)
         {
             var n = map.cellIndices.NumGridCells;
             walkGrid = new float[n];
             stoneGrid = new float[n];
+            originalTerrain = new TerrainDef[n];
+
             for (var i = 0; i < n; i++)
             {
                 walkGrid[i] = 0;
                 stoneGrid[i] = 0;
             }
 
-            originalTerrain = new TerrainDef[n];
+            pathsDrawer = new CellBoolDrawer(this, map.Size.x, map.Size.z, 2610, .5f);
         }
 
         public bool IsPackable(TerrainDef terrain)
@@ -39,6 +44,14 @@ namespace DesirePaths
             base.MapComponentTick();
             if (GenTicks.TicksGame % 20 == 0) DoWalkGridTick();
             if (GenTicks.TicksGame % (GenDate.TicksPerDay / 12) == 0) DoUpdateTick();
+            if (GenTicks.TicksGame % (GenDate.TicksPerHour) == 0) DoPathDrawerUpdate();
+        }
+
+        public override void MapComponentUpdate()
+        {
+            if (drawPaths)
+                pathsDrawer.MarkForDraw();
+            pathsDrawer.CellBoolDrawerUpdate();
         }
 
         public void DoWalkGridTick()
@@ -73,10 +86,19 @@ namespace DesirePaths
                 walkGrid[i] *= DesirePaths.Settings.pathDegradeFactor;
                 if (walkGrid[i] < DesirePaths.Settings.pathDegradeThreshold)
                     TryRemovePath(i);
-
                 if (stoneGrid[i] > DesirePaths.Settings.stoneSmoothThreshold)
                     TrySmooth(i);
             }
+
+        }
+
+        public void DoPathDrawerUpdate()
+        {
+            // walkGrid updated, update paths drawer
+            var max = walkGrid.Max();
+            walkThreshold = max * .05f;
+            walkMax = max * .8f;
+            pathsDrawer.SetDirty();
         }
 
         public void TryCreatePath(int index)
@@ -138,6 +160,9 @@ namespace DesirePaths
 
         private static Dictionary<ushort, TerrainDef> terrainsByHash =
             DefDatabase<TerrainDef>.AllDefsListForReading.ToDictionary(d => d.shortHash, d => d);
+
+        public Color Color => GenUI.MouseoverColor;
+
         public override void ExposeData()
         {
             base.ExposeData();
@@ -145,6 +170,7 @@ namespace DesirePaths
             if (Scribe.mode == LoadSaveMode.LoadingVars)
             {
                 walkGrid = new float[map.cellIndices.NumGridCells];
+                stoneGrid = new float[map.cellIndices.NumGridCells];
                 originalTerrain = new TerrainDef[map.cellIndices.NumGridCells];
             }
 
@@ -154,6 +180,11 @@ namespace DesirePaths
                 "walkGrid");
 
             MapExposeUtility.ExposeUshort(
+                map, ( cell ) => (ushort) ( stoneGrid[map.cellIndices.CellToIndex( cell )] * 100 ),
+                ( cell, val ) => stoneGrid[map.cellIndices.CellToIndex( cell )] = val / 100f,
+                "stoneGrid");
+
+            MapExposeUtility.ExposeUshort(
                 map, (cell) => originalTerrain[map.cellIndices.CellToIndex(cell)]?.shortHash ?? 0,
                 (cell, val) =>
                 {
@@ -161,6 +192,20 @@ namespace DesirePaths
                         originalTerrain[map.cellIndices.CellToIndex(cell)] = terrain;
 
                 }, "originalTerrain");
+        }
+
+        private float walkThreshold = float.MaxValue;
+        private float walkMax = float.MaxValue;
+        public bool GetCellBool(int index)
+        {
+            return walkGrid[index] > walkThreshold;
+        }
+
+        public Color GetCellExtraColor(int index)
+        {
+            var color = Color.white;
+            color.a = Mathf.Clamp01(walkGrid[index] / walkMax);
+            return color;
         }
     }
 }
