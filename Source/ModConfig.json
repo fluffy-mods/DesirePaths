@@ -3,22 +3,14 @@
     "version": {
         "major": 0,
         "minor": 4,
-        "build": 61
+        "build": 62
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "2020-04-24 :: Fluffy :: actuall set default values for settings",
-    "changenotes": [
-        {
-            "repo": "DesirePaths",
-            "hash": "bfb65686e583a299f2b10144027a1edbd7f75492",
-            "date": "2020-04-24",
-            "author": "Fluffy",
-            "message": "actuall set default values for settings"
-        }
-    ],
+    "changenote": "",
+    "changenotes": [],
     "contributors": {},
     "tags": [
         "1.1"
