@@ -16,7 +16,7 @@ namespace DesirePaths
         private TerrainDef[] originalTerrain;
         private CellBoolDrawer pathsDrawer;
 
-        public static bool drawPaths = true;
+        public static bool drawPaths;
 
         public DesireGrid(Map map) : base(map)
         {

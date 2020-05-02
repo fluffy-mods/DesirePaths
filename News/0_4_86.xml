@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <HugsLib.UpdateFeatureDef>
+    <modNameReadable>Desire Paths</modNameReadable>
+    <modIdentifier>fluffy.desirepaths</modIdentifier>
+    <defName>Desire_Paths_0_4_86</defName>
+    <assemblyVersion>0.5.90</assemblyVersion>
+    <content>
+      |Added a path density overlay to show what paths your colonists and guests are most often taking. Useful to see where you might want to add paths, or just to see where desire paths are likely to form.
+      |img:DrawPathsOverlay
+      |img:DrawPathsButton|caption:Click this button to toggle the overlay on and off.
+      |Added stone smoothing; rough stone floors will eventually become smoothed by pawns walking over them. These smooth stone floors do not revert back to rough floors naturally. There's an accompanying new setting in the mod options that lets you tune how long it takes to smooth rough stone.
+      ||img:StoneSmoothing
+      ||fixes:
+      - tweaked snow clearing speed
+      - made settings translatable
+      - fixed incorrect defaults labels (the actual default settings were correct)
+      - changed some settings to use percentages, as absolute values made no sense
+    </content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>
