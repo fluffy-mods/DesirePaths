@@ -9,16 +9,8 @@
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "2020-05-02 08:05 :: Fluffy :: fix: turn paths overlay off by default",
-    "changenotes": [
-        {
-            "repo": "DesirePaths",
-            "hash": "f422df0ad2082f27ef04e51f4f278874482054f6",
-            "date": "2020-05-02 08:05",
-            "author": "Fluffy",
-            "message": "fix: turn paths overlay off by default"
-        }
-    ],
+    "changenote": "",
+    "changenotes": [],
     "contributors": {},
     "tags": [
         "1.1"
