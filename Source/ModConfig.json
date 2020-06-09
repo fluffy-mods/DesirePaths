@@ -10,7 +10,15 @@
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
     "changenote": "",
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "d4bc783956a4fe668fc7707000afd7cdaab17c3e",
+            "date": "2020-06-02 00:06",
+            "author": "Fluffy",
+            "message": "Release 0.6.92 [nolog]"
+        }
+    ],
     "contributors": {},
     "tags": [
         "1.1"
