@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- GlobalPlayDataButtonThingy -->
+  <Fluffy.DesirePaths.DrawPaths>経路密度をオーバーレイ表示</Fluffy.DesirePaths.DrawPaths>
+
+  <!-- Settings -->
+  <Fluffy.DesirePaths>Desire Paths</Fluffy.DesirePaths>
+  <Fluffy.DesirePaths.Settings.PathCreationThreshold>小道作成のしきい値（現在：{0},デフォルト：{1},低いほど地面が踏み固められて小道が速くできる）</Fluffy.DesirePaths.Settings.PathCreationThreshold>
+  <Fluffy.DesirePaths.Settings.PathDegradeThreshold>小道劣化のしきい値（現在：{0},デフォルト：{1}, 高いほど踏み固められた小道が速く削除される）</Fluffy.DesirePaths.Settings.PathDegradeThreshold>
+  <Fluffy.DesirePaths.Settings.PathDegradeFactor>パス劣化係数（現在：{0},デフォルト：{1}, 高いほど踏み固められた小道の劣化が速くなる）</Fluffy.DesirePaths.Settings.PathDegradeFactor>
+  <Fluffy.DesirePaths.Settings.SnowClearFactor>雪道が溶ける速さ（現在：{0},デフォルト：{1}, 高いほど雪が早く溶ける）</Fluffy.DesirePaths.Settings.SnowClearFactor>
+  <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>粗い石がどのくらいで滑らかになるか?（現在：{0},デフォルト：{1}, 高いほど時間が必要になる）</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
+
+</LanguageData>
