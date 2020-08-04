@@ -1,4 +1,4 @@
-[![RimWorld 1.1](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg)](http://rimworldgame.com/)
+[![RimWorld 1.2](https://img.shields.io/badge/RimWorld-1.2-brightgreen.svg)](http://rimworldgame.com/)
 
 Creates packed dirt paths when colonists frequently take the same path.
 
@@ -30,6 +30,12 @@ That said, if such desire paths form where you don't want them, it's really a si
 
 None
 
+
+
+  
+  
+![Contributors](https://banners.karel-kroeze.nl/title/Contributors.png)
+ - Proxyer:	Japanese Translation
 
 
   
@@ -74,4 +80,4 @@ Become a supporter and show your appreciation by buying me a coffee (or contribu
   
   
 ![Version](https://banners.karel-kroeze.nl/title/Version.png)
-This is version 0.6.92, for RimWorld 1.1.2654.
+This is version 0.7.94, for RimWorld 1.2.2716.

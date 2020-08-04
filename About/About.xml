@@ -3,7 +3,7 @@
   <name>Desire Paths</name>
   <author>Fluffy</author>
   <supportedVersions>
-    <li>1.1</li>
+    <li>1.2</li>
   </supportedVersions>
   <description>Creates packed dirt paths when colonists frequently take the same path.
 
@@ -23,8 +23,12 @@ That said, if such desire paths form where you don’t want them, it’s really 
 &lt;size=24&gt;Known Issues&lt;/size&gt;
 None
 
+&lt;size=24&gt;Contributors&lt;/size&gt;
+
+Proxyer:    Japanese Translation
+
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 0.6.92, for RimWorld 1.1.2654.
+This is version 0.7.94, for RimWorld 1.2.2716.
 
 </description>
   <url>https://ludeon.com/forums/index.php?topic=16120</url>
