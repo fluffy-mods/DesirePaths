@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Desire_Paths_0_4_86.modNameReadable>Desire Paths</Desire_Paths_0_4_86.modNameReadable>
+  <Desire_Paths_0_4_86.content>\n　　　|「経路密度をオーバーレイ表示」のMod設定を追加して,入植者と訪問客が最も頻繁に使用している経路を表示します.経路を追加する場所を確認したり,希望する経路が形成されそうな場所を確認したりするのに便利です.\n　　　|img:DrawPathsOverlay\n　　　|img:DrawPathsButton|caption:このボタンをクリックして,オーバーレイ表示のオンオフを切り替えます.\n　　　||石の平滑化を追加:\n粗い石の床面は,最終的にその上を歩くポーンによって滑らかになります. これらの滑らかになった石の床は,自然に粗い床には戻りません.Modオプションに\n追加された新しい設定で粗い石を滑らかにするのにかかる時間を調整できます.\n　　　||img:StoneSmoothing\n　　　||修正：\n　　　－除雪速度を調整\n　　　－Mod設定を翻訳可能にしました\n　　　－不適切なデフォルトのラベルを修正した（実際のデフォルト設定が正しかった）\n　　　－絶対値が意味が無かったので,パーセンテージを使用するように\n　　　　いくつかのMod設定を変更した\n　　
+</Desire_Paths_0_4_86.content>
+
+  <Desire_Paths_0_5_91.modNameReadable>Desire Paths</Desire_Paths_0_5_91.modNameReadable>
+  <Desire_Paths_0_5_91.content>修正：デフォルトでは経路密度のオーバーレイ表示をオフにしました.
+</Desire_Paths_0_5_91.content>
+
+</LanguageData>
