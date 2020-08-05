@@ -77,6 +77,17 @@ namespace DesirePaths
                 walkGrid[index] += weight;
                 stoneGrid[index] += weight;
 
+                if (DesirePaths.Settings.includeAdjacent ){
+                    weight *= DesirePaths.Settings.adjacentFactor;
+                    foreach ( var adjacent in GenAdjFast.AdjacentCells8Way(pawn.Position) ){
+                        if ( adjacent.InBounds( map ) ){
+                            index = map.cellIndices.CellToIndex(adjacent);
+                            walkGrid[index] += weight;
+                            stoneGrid[index] += weight;
+                        }
+                    }
+                }
+
                 // also remove snow where we're walking, directly on the snowgrid
                 map.snowGrid.AddDepth(pawn.Position, -.02f * DesirePaths.Settings.snowClearFactor * pawn.BodySize);
 

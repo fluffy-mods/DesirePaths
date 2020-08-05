@@ -11,6 +11,9 @@ namespace DesirePaths
         public float snowClearFactor = .5f;
         public int stoneSmoothThreshold = 1000;
 
+        public bool includeAdjacent = true;
+        public float adjacentFactor = .2f;
+
         public void DoWindowContents(Rect canvas)
         {
             var options = new Listing_Standard();
@@ -25,6 +28,11 @@ namespace DesirePaths
 
             options.Label( I18n.PathDegradeFactor( 1 - pathDegradeFactor, .1f ) );
             pathDegradeFactor = options.Slider( pathDegradeFactor, .5f, .99f );
+            options.Gap();
+
+            options.CheckboxLabeled(I18n.IncludeAdjacent, ref includeAdjacent);
+            options.Label( I18n.AdjacentFactor( adjacentFactor, .2f ) );
+            snowClearFactor = options.Slider( adjacentFactor, 0f, 1f );
             options.Gap();
 
             options.Label( I18n.SnowClearFactor( snowClearFactor, .5f ) );

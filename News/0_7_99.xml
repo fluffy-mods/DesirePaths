@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <HugsLib.UpdateFeatureDef>
+    <modNameReadable>Desire Paths</modNameReadable>
+    <modIdentifier>fluffy.desirepaths</modIdentifier>
+    <defName>Desire_Paths_0_8_100</defName>
+    <assemblyVersion>0.8.100</assemblyVersion>
+    <content>New: 
+    - paths now slowly get wider with lots of use. You can toggle this behaviour in the mod options, and also tweak the speed at which paths get wider.
+    - modders can now change the type of paths created for different terrains, or toggle desire paths off for specific terrains altogether.
+    |Fixed:
+    - packed dirt paths no longer appear on ice sheets.</content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>

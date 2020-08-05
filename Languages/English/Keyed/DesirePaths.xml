@@ -10,4 +10,6 @@
     <Fluffy.DesirePaths.Settings.PathDegradeFactor>Path degrade factor (current: {0}, default: {1}, higher degrades packed earth paths faster)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
     <Fluffy.DesirePaths.Settings.SnowClearFactor>Snow path clearing speed (current: {0}, default: {1}, higher removes snow quicker)</Fluffy.DesirePaths.Settings.SnowClearFactor>
     <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>How long does it take for rough stone to become smoothed with use? (current: {0}, default: {1}, higher takes longer)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
+    <Fluffy.DesirePaths.Settings.IncludeAdjacent>Paths spread to adjacent tiles (if enabled, often traveled paths slowly become wider)</Fluffy.DesirePaths.Settings.IncludeAdjacent>
+    <Fluffy.DesirePaths.Settings.AdjacentFactor>Path spread speed (current: {0}, default: {1}, higher spreads paths quicker)</Fluffy.DesirePaths.Settings.AdjacentFactor>
 </LanguageData>

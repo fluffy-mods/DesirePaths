@@ -36,5 +36,9 @@ namespace DesirePaths
         public static string SnowClearFactor( float factor, float @default ) =>
             "Settings.SnowClearFactor".Translate( factor.ToString( "P0" ), @default.ToString( "P0" ) );
 
+        public static string IncludeAdjacent = "Settings.IncludeAdjacent".Translate();
+        public static string AdjacentFactor(float factor, float @default) =>
+            "Settings.AdjacentFactor".Translate(factor.ToString("P0"), @default.ToString("P0"));
+
     }
 }
