@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Defs>
+  <HugsLib.UpdateFeatureDef>
+    <modNameReadable>Desire Paths</modNameReadable>
+    <modIdentifier>fluffy.desirepaths</modIdentifier>
+    <defName>Desire_Paths_0_5_91</defName>
+    <assemblyVersion>0.6.92</assemblyVersion>
+    <content>fix: turn path density overlay off by default</content>
+  </HugsLib.UpdateFeatureDef>
+</Defs>
