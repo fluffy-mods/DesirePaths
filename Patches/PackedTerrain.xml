@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAddModExtension">
+        <xpath>//TerrainDef[defName="Ice"]</xpath>
+        <value>
+            <li Class="DesirePaths.DefModExtension_PackedTerrain">
+                <disabled>True</disabled>
+                <!-- NOTE: 
+                You can use the packedTerrain tag to specify a terrain that 
+                will be used as the packed version for a given terrain. 
+                
+                For example;
+                <packedTerrain>WaterShallow</packedTerrain> 
+
+                would use shallow water as the 'packed' version of ice. 
+                -->
+            </li>
+        </value>
+    </Operation>
+</Patch>

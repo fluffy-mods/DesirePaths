@@ -80,4 +80,4 @@ Become a supporter and show your appreciation by buying me a coffee (or contribu
   
   
 ![Version](https://banners.karel-kroeze.nl/title/Version.png)
-This is version 0.7.94, for RimWorld 1.2.2716.
+This is version 0.7.96, for RimWorld 1.2.2717.

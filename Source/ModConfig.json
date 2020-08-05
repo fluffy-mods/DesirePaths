@@ -3,34 +3,20 @@
     "version": {
         "major": 0,
         "minor": 7,
-        "build": 94
+        "build": 96
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "2020-08-04 20:08 :: Proxyer :: Japanese Translation",
+    "changenote": "2020-08-05 21:08 :: Fluffy :: add old news to vcs",
     "changenotes": [
         {
             "repo": "DesirePaths",
-            "hash": "9b5dcdd51025969715b389982e94ed016d94b373",
-            "date": "2020-08-04 20:08",
-            "author": "Proxyer",
-            "message": "Japanese Translation"
-        },
-        {
-            "repo": "DesirePaths",
-            "hash": "9e60b1b607f4c7476210a3932f55fe982b8be3fc",
-            "date": "2020-06-09 22:06",
+            "hash": "14db2cd2901d003586241a6db059e551787cc706",
+            "date": "2020-08-05 21:08",
             "author": "Fluffy",
-            "message": "Release 0.6.92 [nolog]"
-        },
-        {
-            "repo": "DesirePaths",
-            "hash": "d4bc783956a4fe668fc7707000afd7cdaab17c3e",
-            "date": "2020-06-02 00:06",
-            "author": "Fluffy",
-            "message": "Release 0.6.92 [nolog]"
+            "message": "add old news to vcs"
         }
     ],
     "contributors": {

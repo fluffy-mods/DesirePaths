@@ -78,6 +78,7 @@
     <Compile Include="Resources.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="TerrainDefOf.cs" />
+    <Compile Include="DefModExtension_PackedTerrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

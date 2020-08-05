@@ -36,7 +36,16 @@ namespace DesirePaths
 
         public bool IsPackable(TerrainDef terrain)
         {
-            return terrain.takeFootprints;
+            var settings = terrain.GetModExtension<DefModExtension_PackedTerrain>();
+            if (settings != null){
+                return !settings.disabled 
+                    && terrain != settings.packedTerrain;
+            } 
+            return terrain != TerrainDefOf.PackedDirt && terrain.takeFootprints;
+        }
+        
+        public TerrainDef PackedTerrain( TerrainDef terrain ){
+            return terrain.GetModExtension<DefModExtension_PackedTerrain>()?.packedTerrain ?? TerrainDefOf.PackedDirt;
         }
 
         public override void MapComponentTick()
@@ -44,7 +53,7 @@ namespace DesirePaths
             base.MapComponentTick();
             if (GenTicks.TicksGame % 20 == 0) DoWalkGridTick();
             if (GenTicks.TicksGame % (GenDate.TicksPerDay / 12) == 0) DoUpdateTick();
-            if (GenTicks.TicksGame % (GenDate.TicksPerHour) == 0) DoPathDrawerUpdate();
+            if (GenTicks.TicksGame % GenDate.TicksPerHour == 0) DoPathDrawerUpdate();
         }
 
         public override void MapComponentUpdate()
@@ -105,12 +114,13 @@ namespace DesirePaths
         {
             var cell = map.cellIndices.IndexToCell(index);
             var terrain = cell.GetTerrain(map);
-            if (terrain == TerrainDefOf.PackedDirt || !IsPackable(terrain))
-                return;
 
-            originalTerrain[index] = terrain;
-            map.terrainGrid.SetTerrain(cell, TerrainDefOf.PackedDirt);
+            if (IsPackable(terrain)){
+                originalTerrain[index] = terrain;
+                map.terrainGrid.SetTerrain(cell, PackedTerrain( terrain ));
+            }
         }
+
 
         public void TryRemovePath(int index)
         {
@@ -119,7 +129,7 @@ namespace DesirePaths
 
             var cell = map.cellIndices.IndexToCell(index);
             var terrain = cell.GetTerrain(map);
-            if (terrain != TerrainDefOf.PackedDirt)
+            if (terrain != PackedTerrain(originalTerrain[index]))
                 return;
 
             map.terrainGrid.SetTerrain(cell, originalTerrain[index]);
@@ -148,10 +158,15 @@ namespace DesirePaths
             base.MapComponentOnGUI();
 
             var pos = UI.MouseCell();
+            var index = map.cellIndices.CellToIndex(pos);
+            var terrain = pos.GetTerrain(map);
             Widgets.Label(new Rect(10, Screen.height * 1 / 3f, 300, 300),
                            $"x: {pos.x}, y: {pos.z}\n" +
-                           $"walk: {walkGrid[map.cellIndices.CellToIndex(pos)]}\n" +
-                           $"pathCost: {pos.GetTerrain(map).pathCost}\n");
+                           $"walk: {walkGrid[index]}\n" +
+                           $"pathCost: {terrain.pathCost}\n" +
+                           $"enabled: {(IsPackable(terrain) ? "yes" : "no")}\n" +
+                           $"original: {originalTerrain[index]}\n" +
+                           $"packed: {PackedTerrain(terrain).defName}");
 
             if (KeyBindingDefOf.Accept.KeyDownEvent)
                 DebugDraw();
