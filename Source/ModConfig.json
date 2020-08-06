@@ -3,36 +3,14 @@
     "version": {
         "major": 0,
         "minor": 8,
-        "build": 102
+        "build": 103
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "2020-08-05 23:08 :: Fluffy :: add path width growth\n2020-08-05 22:08 :: Fluffy :: add defModExtension for changing desirePath settings per terrain\n2020-08-05 21:08 :: Fluffy :: add old news to vcs",
-    "changenotes": [
-        {
-            "repo": "DesirePaths",
-            "hash": "353fce662d35bbc893e5b5d99506a75d5877e3da",
-            "date": "2020-08-05 23:08",
-            "author": "Fluffy",
-            "message": "add path width growth"
-        },
-        {
-            "repo": "DesirePaths",
-            "hash": "ad2b62ee63fd99ceecebe4d71f955e692c7e170c",
-            "date": "2020-08-05 22:08",
-            "author": "Fluffy",
-            "message": "add defModExtension for changing desirePath settings per terrain"
-        },
-        {
-            "repo": "DesirePaths",
-            "hash": "14db2cd2901d003586241a6db059e551787cc706",
-            "date": "2020-08-05 21:08",
-            "author": "Fluffy",
-            "message": "add old news to vcs"
-        }
-    ],
+    "changenote": "",
+    "changenotes": [],
     "contributors": {
         "Proxyer": "Japanese Translation"
     },
