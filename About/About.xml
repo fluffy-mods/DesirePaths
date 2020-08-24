@@ -18,6 +18,8 @@ Packed dirt paths will form when colonists frequently take the same path over gr
 If you find that your colonists keep walking through your fields, I recommend using this together with
 Path Avoid, so that you can better steer where your colonists may and may not walk.
 
+For problematic trade caravans, you may want to use KV’s Trading Spot.
+
 That said, if such desire paths form where you don’t want them, it’s really a sign that you need to change your base design!
 
 &lt;size=24&gt;Known Issues&lt;/size&gt;
@@ -33,7 +35,7 @@ This extension can either be added directly on modded terrainDefs, or be injecte
 Proxyer:    Japanese Translation
 
 &lt;size=24&gt;Version&lt;/size&gt;
-This is version 0.8.102, for RimWorld 1.2.2717.
+This is version 0.8.103, for RimWorld 1.2.2723.
 
 </description>
   <url>https://ludeon.com/forums/index.php?topic=16120</url>

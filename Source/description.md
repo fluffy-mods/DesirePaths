@@ -13,6 +13,8 @@ Packed dirt paths will form when colonists frequently take the same path over gr
 If you find that your colonists keep walking through your fields, I recommend using this together with
 [Path Avoid](https://steamcommunity.com/sharedfiles/filedetails/?id=1180719857), so that you can better steer where your colonists may and may not walk.
 
+For problematic trade caravans, you may want to use [KV's Trading Spot](https://steamcommunity.com/sharedfiles/filedetails/?id=1180719658).
+
 That said, if such desire paths form where you don't want them, it's really a sign that you need to change your base design!
 
 # Known Issues

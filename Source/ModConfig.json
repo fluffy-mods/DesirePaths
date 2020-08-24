@@ -3,14 +3,22 @@
     "version": {
         "major": 0,
         "minor": 8,
-        "build": 102
+        "build": 103
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
     "changenote": "",
-    "changenotes": [],
+    "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "0f14ac7bef2e6712f4c796ec2f38ea744180782e",
+            "date": "2020-08-06 09:08",
+            "author": "Fluffy",
+            "message": "Release 0.8.102 [nolog]"
+        }
+    ],
     "contributors": {
         "Proxyer": "Japanese Translation"
     },
