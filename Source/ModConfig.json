@@ -9,8 +9,15 @@
     "git_repo": "DesirePaths",
     "git_user": "fluffy-mods",
     "packageId": "fluffy.desirepaths",
-    "changenote": "",
+    "changenote": "2020-08-24 15:08 :: Fluffy :: add trading spot mod to description",
     "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "5553b403a2d6ec2cb7cc8d2c3322527ccf7c1f88",
+            "date": "2020-08-24 15:08",
+            "author": "Fluffy",
+            "message": "add trading spot mod to description"
+        },
         {
             "repo": "DesirePaths",
             "hash": "0f14ac7bef2e6712f4c796ec2f38ea744180782e",
