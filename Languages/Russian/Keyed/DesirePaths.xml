@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- GlobalPlayDataButtonThingy -->
+    <Fluffy.DesirePaths.DrawPaths>Показать наложение плотности пути</Fluffy.DesirePaths.DrawPaths>
+
+    <!-- Settings -->
+    <Fluffy.DesirePaths>Desire Paths + русификатор</Fluffy.DesirePaths>
+    <Fluffy.DesirePaths.Settings.PathCreationThreshold>Порог создания пути (текущий: {0}, по умолчанию: {1}, чем ниже, тем быстрее создаються пути уплотненной земли)</Fluffy.DesirePaths.Settings.PathCreationThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeThreshold>Порог ухудшения пути (текущий: {0}, по умолчанию: {1}, чем выше, тем быстрее удаляются пути уплотненной земли)</Fluffy.DesirePaths.Settings.PathDegradeThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeFactor>Фактор ухудшения пути (текущий: {0}, по умолчанию: {1}, более высокое значение, быстрее убирает уплотнение наземных путей)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
+    <Fluffy.DesirePaths.Settings.SnowClearFactor>Скорость очистки пути от снега (текущая: {0}, по умолчанию: {1}, чем выше, тем быстрее убираеться снег на пути)</Fluffy.DesirePaths.Settings.SnowClearFactor>
+    <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>Сколько времени нужно, чтобы грубый камень стал сглаженным при использовании? (текущее: {0}, по умолчанию: {1}, чем выше, тем больше времени понадобиться)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
+    <Fluffy.DesirePaths.Settings.IncludeAdjacent>Пути распространяются на соседние плитки (если включено, часто используемые пути постепенно становятся шире)</Fluffy.DesirePaths.Settings.IncludeAdjacent>
+    <Fluffy.DesirePaths.Settings.AdjacentFactor>Скорость распространения пути (текущий: {0}, по умолчанию: {1}, чем выше, тем быстрее будут распостаряться пути)</Fluffy.DesirePaths.Settings.AdjacentFactor>
+</LanguageData>
