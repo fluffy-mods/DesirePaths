@@ -3,7 +3,11 @@
     "version": {
         "major": 0,
         "minor": 8,
+<<<<<<< HEAD
         "build": 106
+=======
+        "build": 105
+>>>>>>> 5968f27 (Release 0.8.105 [nolog])
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
@@ -13,6 +17,7 @@
     "changenotes": [
         {
             "repo": "DesirePaths",
+<<<<<<< HEAD
             "hash": "5968f275a5c1608711c72ce76d62fc7ee393f562",
             "date": "2020-12-08 19:12",
             "author": "Fluffy",
@@ -20,6 +25,8 @@
         },
         {
             "repo": "DesirePaths",
+=======
+>>>>>>> 5968f27 (Release 0.8.105 [nolog])
             "hash": "43afe6af0327b844e511025267f8274fd4c26119",
             "date": "2020-08-24 15:08",
             "author": "Fluffy",
