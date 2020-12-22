@@ -3,7 +3,7 @@
     "version": {
         "major": 0,
         "minor": 8,
-        "build": 105
+        "build": 106
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
@@ -11,6 +11,13 @@
     "packageId": "fluffy.desirepaths",
     "changenote": "2020-08-24 15:08 :: Fluffy :: add trading spot mod to description",
     "changenotes": [
+        {
+            "repo": "DesirePaths",
+            "hash": "5968f275a5c1608711c72ce76d62fc7ee393f562",
+            "date": "2020-12-08 19:12",
+            "author": "Fluffy",
+            "message": "Release 0.8.105 [nolog]"
+        },
         {
             "repo": "DesirePaths",
             "hash": "43afe6af0327b844e511025267f8274fd4c26119",
