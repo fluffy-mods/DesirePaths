@@ -37,5 +37,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersion("1.0.108")]
 =======
 [assembly: AssemblyVersion("0.0.0")]
+<<<<<<< HEAD
 [assembly: AssemblyFileVersion("0.8.105")]
 >>>>>>> 5968f27 (Release 0.8.105 [nolog])
+=======
+[assembly: AssemblyFileVersion("0.8.106")]
+>>>>>>> 6ae6b29 (Release 0.8.106 [nolog])
