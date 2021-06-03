@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- GlobalPlayDataButtonThingy -->
+    <Fluffy.DesirePaths.DrawPaths>显示路径密度覆盖</Fluffy.DesirePaths.DrawPaths>
+
+    <!-- Settings -->
+    <Fluffy.DesirePaths>路径</Fluffy.DesirePaths>
+    <Fluffy.DesirePaths.Settings.PathCreationThreshold>路径创建阈值 (当前: {0}, 默认: {1}, 越低路径创建越快)</Fluffy.DesirePaths.Settings.PathCreationThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeThreshold>路径降级阈值 (当前: {0}, 默认: {1}, 越高路径消逝越快)</Fluffy.DesirePaths.Settings.PathDegradeThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeFactor>路径退化因子 (当前: {0}, 默认: {1}, 越高路径消逝越快)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
+    <Fluffy.DesirePaths.Settings.SnowClearFactor>雪道清除速度 (当前: {0}, 默认: {1}, 越高雪道路径消逝越快)</Fluffy.DesirePaths.Settings.SnowClearFactor>
+    <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>粗糙的石头在使用过程中变得光滑需要多长时间？(当前: {0}, 默认: {1}, 更高需要更长的时间)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
+    <Fluffy.DesirePaths.Settings.IncludeAdjacent>路径扩展到相邻的图块（如果启用，经常行进的路径会慢慢变宽）</Fluffy.DesirePaths.Settings.IncludeAdjacent>
+    <Fluffy.DesirePaths.Settings.AdjacentFactor>>路径扩展速度 (当前: {0}, 默认: {1}, 越高路径扩展速度越快)</Fluffy.DesirePaths.Settings.AdjacentFactor>
+</LanguageData>
