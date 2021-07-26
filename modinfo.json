@@ -6,7 +6,7 @@
     "version": {
         "major": 1,
         "minor": 0,
-        "build": 108
+        "build": 114
     },
     "author": {
         "name": "Fluffy",
@@ -20,6 +20,24 @@
     },
     "changelog": [
         {
+            "date": "2021-07-26T07:48:10.000Z",
+            "message": "Merge branch '1.3' of https://github.com/fluffy-mods/DesirePaths into 1.3",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "25326db4fb906e69e359ba9e1029c45d753041ec"
+        },
+        {
+            "date": "2021-06-03T06:24:50.000Z",
+            "message": "Add Simplified Chinese translation",
+            "author": {
+                "name": "Juijote",
+                "email": "22154581+Juijote@users.noreply.github.com"
+            },
+            "hash": "2db8525dc37e3e689caac38c47c0ac97c909c551"
+        },
+        {
             "date": "2020-08-24T13:36:47.000Z",
             "message": "add trading spot mod to description",
             "author": {
@@ -27,6 +45,18 @@
                 "email": "fluffy.l2032@gmail.com"
             },
             "hash": "5553b403a2d6ec2cb7cc8d2c3322527ccf7c1f88"
+        }
+    ],
+    "contributions": [
+        {
+            "hash": "2db8525dc37e3e689caac38c47c0ac97c909c551",
+            "author": "Juijote",
+            "description": "Add Simplified Chinese translation"
+        },
+        {
+            "hash": "9b5dcdd51025969715b389982e94ed016d94b373",
+            "author": "Proxyer",
+            "description": "Japanese Translation"
         }
     ]
 }
