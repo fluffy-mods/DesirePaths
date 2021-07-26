@@ -5,6 +5,7 @@
         "minor": 8,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "build": 106
 =======
         "build": 105
@@ -12,6 +13,9 @@
 =======
         "build": 106
 >>>>>>> 6ae6b29 (Release 0.8.106 [nolog])
+=======
+        "build": 106
+>>>>>>> 6ae6b290d7b4057d5bc74ec987fc4813783f722f
     },
     "visibility": 0,
     "git_repo": "DesirePaths",
@@ -23,8 +27,11 @@
             "repo": "DesirePaths",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6ae6b29 (Release 0.8.106 [nolog])
+=======
+>>>>>>> 6ae6b290d7b4057d5bc74ec987fc4813783f722f
             "hash": "5968f275a5c1608711c72ce76d62fc7ee393f562",
             "date": "2020-12-08 19:12",
             "author": "Fluffy",
@@ -33,10 +40,13 @@
         {
             "repo": "DesirePaths",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5968f27 (Release 0.8.105 [nolog])
 =======
 >>>>>>> 6ae6b29 (Release 0.8.106 [nolog])
+=======
+>>>>>>> 6ae6b290d7b4057d5bc74ec987fc4813783f722f
             "hash": "43afe6af0327b844e511025267f8274fd4c26119",
             "date": "2020-08-24 15:08",
             "author": "Fluffy",

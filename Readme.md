@@ -59,6 +59,7 @@ Become a supporter and show your appreciation by buying me a coffee (or contribu
 ![Version](https://banners.karel-kroeze.nl/title/Version.png)  
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 This is version 0.8.106, for RimWorld 1.2.2753.
 =======
 This is version 0.8.105, for RimWorld 1.2.2753.
@@ -66,3 +67,6 @@ This is version 0.8.105, for RimWorld 1.2.2753.
 =======
 This is version 0.8.106, for RimWorld 1.2.2753.
 >>>>>>> 6ae6b29 (Release 0.8.106 [nolog])
+=======
+This is version 0.8.106, for RimWorld 1.2.2753.
+>>>>>>> 6ae6b290d7b4057d5bc74ec987fc4813783f722f
