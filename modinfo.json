@@ -6,7 +6,7 @@
     "version": {
         "major": 1,
         "minor": 1,
-        "build": 114
+        "build": 115
     },
     "author": {
         "name": "Fluffy",
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/DesirePaths"
     },
     "changelog": [
+        {
+            "date": "2021-07-26T07:54:50.000Z",
+            "message": "release v1.1.114",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "6ad92745fe9322dac6be83967a844edb6ab5f8db"
+        },
         {
             "date": "2021-07-26T07:53:52.000Z",
             "message": "fix squiglies, move to nuget, update refs",
