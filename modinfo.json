@@ -1,0 +1,32 @@
+{
+    "name": "Desire Paths",
+    "sourceDir": ".",
+    "targetDir": "DesirePaths",
+    "url": "https://github.com/fluffy-mods/DesirePaths",
+    "version": {
+        "major": 1,
+        "minor": 0,
+        "build": 108
+    },
+    "author": {
+        "name": "Fluffy",
+        "url": "https://github.com/fluffy-mods/",
+        "email": "fluffy.l2032@gmail.com"
+    },
+    "git": {
+        "owner": "fluffy-mods",
+        "repo": "DesirePaths",
+        "url": "https://github.com/fluffy-mods/DesirePaths"
+    },
+    "changelog": [
+        {
+            "date": "2020-08-24T13:36:47.000Z",
+            "message": "add trading spot mod to description",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "5553b403a2d6ec2cb7cc8d2c3322527ccf7c1f88"
+        }
+    ]
+}
