@@ -5,8 +5,13 @@
     "url": "https://github.com/fluffy-mods/DesirePaths",
     "version": {
         "major": 1,
+<<<<<<< HEAD
         "minor": 1,
         "build": 116
+=======
+        "minor": 0,
+        "build": 108
+>>>>>>> pr/Juijote/17
     },
     "author": {
         "name": "Fluffy",
@@ -20,6 +25,7 @@
     },
     "changelog": [
         {
+<<<<<<< HEAD
             "date": "2021-07-26T07:58:04.000Z",
             "message": "fix readme",
             "author": {
@@ -65,6 +71,8 @@
             "hash": "2db8525dc37e3e689caac38c47c0ac97c909c551"
         },
         {
+=======
+>>>>>>> pr/Juijote/17
             "date": "2020-08-24T13:36:47.000Z",
             "message": "add trading spot mod to description",
             "author": {
@@ -73,6 +81,7 @@
             },
             "hash": "5553b403a2d6ec2cb7cc8d2c3322527ccf7c1f88"
         }
+<<<<<<< HEAD
     ],
     "contributions": [
         {
@@ -102,4 +111,7 @@
             }
         ]
     }
+=======
+    ]
+>>>>>>> pr/Juijote/17
 }
