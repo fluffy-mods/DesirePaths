@@ -24,8 +24,8 @@ By default, any terrain that has the XML tag TakeFootprints' set to true will be
 This extension can either be added directly on modded terrainDefs, or be injected with a patch. Desire Paths itself uses such a patch to disable its' behaviour for Ice terrain, so that might be a good place to start.
 
 ![Contributors](https://banners.karel-kroeze.nl/title/Contributors.png)  
-- Juijote: Add Simplified Chinese translation
-- Proxyer: Japanese Translation
+Juijote: [Add Simplified Chinese translation](https://github.com/fluffy-mods/DesirePaths/commit/2db8525)
+Proxyer: [Japanese Translation](https://github.com/fluffy-mods/DesirePaths/commit/9b5dcdd)
 
 
 ![Think you found a bug?](https://banners.karel-kroeze.nl/title/Think%20you%20found%20a%20bug%3F.png)  

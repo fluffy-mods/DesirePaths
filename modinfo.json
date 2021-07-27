@@ -6,7 +6,7 @@
     "version": {
         "major": 1,
         "minor": 1,
-        "build": 115
+        "build": 116
     },
     "author": {
         "name": "Fluffy",
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/DesirePaths"
     },
     "changelog": [
+        {
+            "date": "2021-07-26T07:58:04.000Z",
+            "message": "fix readme",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "f93a9ac8019fc5f49ab96ae1daa0914ee9b8f786"
+        },
         {
             "date": "2021-07-26T07:54:50.000Z",
             "message": "release v1.1.114",
@@ -76,5 +85,21 @@
             "author": "Proxyer",
             "description": "Japanese Translation"
         }
-    ]
+    ],
+    "contributors": {
+        "Juijote": [
+            {
+                "hash": "2db8525",
+                "author": "Juijote",
+                "description": "Add Simplified Chinese translation"
+            }
+        ],
+        "Proxyer": [
+            {
+                "hash": "9b5dcdd",
+                "author": "Proxyer",
+                "description": "Japanese Translation"
+            }
+        ]
+    }
 }
