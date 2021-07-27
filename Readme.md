@@ -26,6 +26,7 @@ This extension can either be added directly on modded terrainDefs, or be injecte
 ![Contributors](https://banners.karel-kroeze.nl/title/Contributors.png)  
 Juijote: [Add Simplified Chinese translation](https://github.com/fluffy-mods/DesirePaths/commit/2db8525)
 Proxyer: [Japanese Translation](https://github.com/fluffy-mods/DesirePaths/commit/9b5dcdd)
+Vladimir Alabov: [Add russian translation #14](https://github.com/fluffy-mods/DesirePaths/commit/34b0c08)
 
 
 ![Think you found a bug?](https://banners.karel-kroeze.nl/title/Think%20you%20found%20a%20bug%3F.png)  
