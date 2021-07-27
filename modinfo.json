@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/DesirePaths",
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 4,
         "build": 117
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/DesirePaths"
     },
     "changelog": [
+        {
+            "date": "2021-07-27T22:07:16.000Z",
+            "message": "update preview image",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "c2c947a7c2453292c3cfb7cc5bfc180672f12b16"
+        },
         {
             "date": "2021-07-27T21:29:35.000Z",
             "message": "Merge branch 'russian_translation' of https://github.com/today-/desirepaths into pr/today-/15",
