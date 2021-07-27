@@ -194,5 +194,25 @@
                 "description": "Add russian translation #14"
             }
         ]
-    }
+    },
+    "attributions": [
+        {
+            "description": "road preview icon",
+            "author": "surang",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/authors/surang"
+        },
+        {
+            "description": "path preview icon",
+            "author": "Smashicons",
+            "license": "BY-NC",
+            "url": "https://www.flaticon.com/authors/smashicons"
+        },
+        {
+            "description": "landscape preview icon",
+            "author": "Freepik",
+            "license": "BY-NC",
+            "url": "https://www.freepik.com/"
+        }
+    ]
 }
