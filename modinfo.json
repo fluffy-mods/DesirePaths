@@ -6,7 +6,7 @@
     "version": {
         "major": 1,
         "minor": 4,
-        "build": 117
+        "build": 118
     },
     "author": {
         "name": "Fluffy",
@@ -222,6 +222,15 @@
             "author": "Freepik",
             "license": "BY-NC",
             "url": "https://www.freepik.com/"
+        }
+    ],
+    "dependencies": [
+        {
+            "type": "required",
+            "id": "brrainz.harmony",
+            "name": "Harmony",
+            "steamId": 2009463077,
+            "download": "https://github.com/pardeike/HarmonyRimWorld/releases/latest"
         }
     ]
 }

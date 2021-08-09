@@ -1,17 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <TargetFramework>net472</TargetFramework>
-    <AssemblyTitle>DesirePaths</AssemblyTitle>
-    <Product>DesirePaths</Product>
-    <Copyright>Copyright © 2020-2021</Copyright>
-    <OutputPath>..\Assemblies\</OutputPath>
-    <PostBuildEvent>mod update</PostBuildEvent>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-  </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3072" />
-    <PackageReference Include="Lib.Harmony" Version="2.1.1">
-      <ExcludeAssets>runtime</ExcludeAssets>
-    </PackageReference>
-  </ItemGroup>
+    <PropertyGroup>
+        <TargetFramework>net472</TargetFramework>
+        <AssemblyTitle>DesirePaths</AssemblyTitle>
+        <Product>DesirePaths</Product>
+        <Copyright>Copyright © 2020-2021</Copyright>
+        <OutputPath>..\Assemblies\</OutputPath>
+        <PostBuildEvent>mod update</PostBuildEvent>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <DebugType>portable</DebugType>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="Krafs.Rimworld.Ref" Version="1.3.3072" />
+        <PackageReference Include="Lib.Harmony" Version="2.1.1" ExcludeAssets="runtime" />
+    </ItemGroup>
 </Project>

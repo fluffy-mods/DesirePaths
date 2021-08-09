@@ -1,14 +1,12 @@
-﻿// TerrainDefOf.cs
+// TerrainDefOf.cs
 // Copyright Karel Kroeze, -2020
 
 using RimWorld;
 using Verse;
 
-namespace DesirePaths
-{
+namespace DesirePaths {
     [DefOf]
-    public static class TerrainDefOf
-    {
+    public static class TerrainDefOf {
         public static TerrainDef PackedDirt;
     }
 }

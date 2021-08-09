@@ -1,10 +1,8 @@
-﻿using UnityEngine;
+using UnityEngine;
 using Verse;
 
-namespace DesirePaths
-{
-    public class Settings : ModSettings
-    {
+namespace DesirePaths {
+    public class Settings: ModSettings {
         public int pathCreateThreshold = 120;
         public int pathDegradeThreshold = 80;
         public float pathDegradeFactor = .9f;
@@ -14,38 +12,36 @@ namespace DesirePaths
         public bool includeAdjacent = true;
         public float adjacentFactor = .2f;
 
-        public void DoWindowContents(Rect canvas)
-        {
-            var options = new Listing_Standard();
+        public void DoWindowContents(Rect canvas) {
+            Listing_Standard options = new Listing_Standard();
             options.Begin(canvas);
-            options.Label( I18n.PathCreationThreshold( pathCreateThreshold, 120 ) );
-            pathCreateThreshold = (int) options.Slider( pathCreateThreshold, 50, 1000 );
+            options.Label(I18n.PathCreationThreshold(pathCreateThreshold, 120));
+            pathCreateThreshold = (int) options.Slider(pathCreateThreshold, 50, 1000);
             options.Gap();
 
-            options.Label( I18n.PathDegradeThreshold( pathDegradeThreshold, 80 ) );
-            pathDegradeThreshold = (int) options.Slider( pathDegradeThreshold, 0, pathCreateThreshold - 10 );
+            options.Label(I18n.PathDegradeThreshold(pathDegradeThreshold, 80));
+            pathDegradeThreshold = (int) options.Slider(pathDegradeThreshold, 0, pathCreateThreshold - 10);
             options.Gap();
 
-            options.Label( I18n.PathDegradeFactor( 1 - pathDegradeFactor, .1f ) );
-            pathDegradeFactor = options.Slider( pathDegradeFactor, .5f, .99f );
+            options.Label(I18n.PathDegradeFactor(1 - pathDegradeFactor, .1f));
+            pathDegradeFactor = options.Slider(pathDegradeFactor, .5f, .99f);
             options.Gap();
 
             options.CheckboxLabeled(I18n.IncludeAdjacent, ref includeAdjacent);
-            options.Label( I18n.AdjacentFactor( adjacentFactor, .2f ) );
-            snowClearFactor = options.Slider( adjacentFactor, 0f, 1f );
+            options.Label(I18n.AdjacentFactor(adjacentFactor, .2f));
+            snowClearFactor = options.Slider(adjacentFactor, 0f, 1f);
             options.Gap();
 
-            options.Label( I18n.SnowClearFactor( snowClearFactor, .5f ) );
-            snowClearFactor = options.Slider( snowClearFactor, 0f, 1f );
+            options.Label(I18n.SnowClearFactor(snowClearFactor, .5f));
+            snowClearFactor = options.Slider(snowClearFactor, 0f, 1f);
             options.Gap();
 
-            options.Label( I18n.StoneSmoothThreshold( stoneSmoothThreshold, 2500 ) );
-            stoneSmoothThreshold = (int) options.Slider( stoneSmoothThreshold, 100, 10000 );
+            options.Label(I18n.StoneSmoothThreshold(stoneSmoothThreshold, 2500));
+            stoneSmoothThreshold = (int) options.Slider(stoneSmoothThreshold, 100, 10000);
             options.End();
         }
 
-        public override void ExposeData()
-        {
+        public override void ExposeData() {
             Scribe_Values.Look(ref pathCreateThreshold, "pathCreateThreshold", 120);
             Scribe_Values.Look(ref pathDegradeThreshold, "pathDegradeThreshold", 80);
             Scribe_Values.Look(ref pathDegradeFactor, "pathDegradeFactor", .9f);
