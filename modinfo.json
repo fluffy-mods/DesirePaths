@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/DesirePaths",
     "version": {
         "major": 1,
-        "minor": 4,
+        "minor": 5,
         "build": 118
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/DesirePaths"
     },
     "changelog": [
+        {
+            "date": "2021-08-09T16:03:04.000Z",
+            "message": "add explicit harmony dependency, update preview image",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "fae37cf2434ef5904c3be6f309dedd7b7d9741aa"
+        },
         {
             "date": "2021-07-27T22:07:16.000Z",
             "message": "update preview image",
