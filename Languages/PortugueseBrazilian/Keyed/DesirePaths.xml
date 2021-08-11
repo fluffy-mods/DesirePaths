@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- GlobalPlayDataButtonThingy -->
+    <Fluffy.DesirePaths.DrawPaths>Mostrar sobreposição de densidade do tráfego</Fluffy.DesirePaths.DrawPaths>
+
+    <!-- Settings -->
+    <Fluffy.DesirePaths>Trilhas de atalho</Fluffy.DesirePaths>
+    <Fluffy.DesirePaths.Settings.PathCreationThreshold>Limite de criação de trilha (atual: {0}, padrão: {1}, quanto mais baixo, mais rápido a criação de caminho de terra batida)</Fluffy.DesirePaths.Settings.PathCreationThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeThreshold>Limite de degradação da trilha (atual: {0}, padrão: {1}, quanto mais alto, mais rápido o caminho de terra batida desaparecera)</Fluffy.DesirePaths.Settings.PathDegradeThreshold>
+    <Fluffy.DesirePaths.Settings.PathDegradeFactor>Fator de degradação da trilha (atual: {0}, padrão: {1}, quanto mais alto, maior a degradação do caminho de terra batida)</Fluffy.DesirePaths.Settings.PathDegradeFactor>
+    <Fluffy.DesirePaths.Settings.SnowClearFactor>Velocidade de limpeza de neve do caminho (atual: {0}, padrão: {1}, quanto mais alto, mais rápido a remoção de neve do caminho)</Fluffy.DesirePaths.Settings.SnowClearFactor>
+    <Fluffy.DesirePaths.Settings.StoneSmoothThreshold>Quanto tempo leva para a pedra bruta ficar lisa com o uso? (atual: {0}, padrão: {1}, quanto mais alto, mais tempo leva)</Fluffy.DesirePaths.Settings.StoneSmoothThreshold>
+    <Fluffy.DesirePaths.Settings.IncludeAdjacent>As trilhas se espalham para os ladrilhos adjacentes (se ativado, os caminhos frequentemente percorridos tornam-se mais largos)</Fluffy.DesirePaths.Settings.IncludeAdjacent>
+    <Fluffy.DesirePaths.Settings.AdjacentFactor>Velocidade de propagação do caminho (atual: {0}, padrão: {1}, quanto mais alto, mais rápido a propagação do caminho)</Fluffy.DesirePaths.Settings.AdjacentFactor>
+</LanguageData>
