@@ -29,7 +29,7 @@ namespace DesirePaths {
 
             options.CheckboxLabeled(I18n.IncludeAdjacent, ref includeAdjacent);
             options.Label(I18n.AdjacentFactor(adjacentFactor, .2f));
-            snowClearFactor = options.Slider(adjacentFactor, 0f, 1f);
+            adjacentFactor = options.Slider(adjacentFactor, 0f, 1f);
             options.Gap();
 
             options.Label(I18n.SnowClearFactor(snowClearFactor, .5f));
@@ -47,6 +47,8 @@ namespace DesirePaths {
             Scribe_Values.Look(ref pathDegradeFactor, "pathDegradeFactor", .9f);
             Scribe_Values.Look(ref snowClearFactor, "snowClearFactor", .5f);
             Scribe_Values.Look(ref stoneSmoothThreshold, "stoneSmoothThreshold", 2500);
+            Scribe_Values.Look(ref includeAdjacent, "includeAdjacent", true);
+            Scribe_Values.Look(ref adjacentFactor, "adjacentFactor", .2f);
         }
     }
 }
