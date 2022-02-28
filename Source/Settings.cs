@@ -13,7 +13,10 @@ namespace DesirePaths {
         public float adjacentFactor = .2f;
 
         public void DoWindowContents(Rect canvas) {
-            Listing_Standard options = new Listing_Standard();
+            Listing_Standard options = new Listing_Standard {
+                ColumnWidth = canvas.width / 2
+
+            };
             options.Begin(canvas);
             options.Label(I18n.PathCreationThreshold(pathCreateThreshold, 120));
             pathCreateThreshold = (int) options.Slider(pathCreateThreshold, 50, 1000);
