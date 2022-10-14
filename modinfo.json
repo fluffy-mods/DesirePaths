@@ -5,7 +5,7 @@
     "url": "https://github.com/fluffy-mods/DesirePaths",
     "version": {
         "major": 1,
-        "minor": 6,
+        "minor": 7,
         "build": 122
     },
     "author": {
@@ -19,6 +19,15 @@
         "url": "https://github.com/fluffy-mods/DesirePaths"
     },
     "changelog": [
+        {
+            "date": "2022-10-14T20:34:50.000Z",
+            "message": "initial 1.4 build",
+            "author": {
+                "name": "Fluffy",
+                "email": "fluffy.l2032@gmail.com"
+            },
+            "hash": "7ca3bc34944db37283d2aa9d5c820f0a52e74875"
+        },
         {
             "date": "2021-08-11T10:42:06.000Z",
             "message": "add Brazilian Portuguese translation",
